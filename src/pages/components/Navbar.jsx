@@ -20,7 +20,7 @@ const Navbar = () => {
             <nav className='flex w-full items-center justify-between'>
                 <div className="flex items-center gap-3">
                     <div className="flex rounded-full border border-zinc-600 p-1.5"><LuMail className='dark:text-white' /></div>
-                    <h3 className='text-sm tracking-wide font-bold dark:text-white'>efeturkerr1@gmail.com</h3>
+                    <h3 className='text-sm tracking-wide font-bold dark:text-white'>efeturkerr0@gmail.com</h3>
                 </div>
                 <div className="flex gap-x-8">
                     <button onClick={toggleTheme} className='p-2 outline-none text-black border-black hover:bg-black hover:text-white dark:border-white dark:text-white dark:hover:bg-white dark:hover:text-black border transition-all ease-in duration-300 rounded-full flex items-center justify-center'>
