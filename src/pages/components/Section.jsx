@@ -1,5 +1,4 @@
 import React from 'react'
-import { FaInstagram, FaLinkedin } from "react-icons/fa6";
 import { DiJavascript1 } from "react-icons/di";
 import { BiLogoTypescript } from "react-icons/bi";
 import { BsBootstrapFill } from "react-icons/bs";
@@ -19,8 +18,8 @@ const Section = () => {
                 <h3 className='text-5xl font-extrabold dark:text-white sm:text-6xl md:text-7xl'>I have been trying to be a good <span className='underline decoration-blue-400 '>developer</span> for {new Date().getFullYear()-2020} years.</h3>
             </div>
             <div className='flex justify-center gap-5'>
-                <a target='_blank' href='https://wa.me/+905550114185' className='cursor-pointer p-2 border transition rounded-md hover:bg-black hover:text-white hover:dark:bg-white hover:dark:text-black border-black dark:border-white text-black dark:text-white flex gap-2 items-center'><FaWhatsapp className='text-lg' /> WhatsApp</a>
-                <a target='_blank' href='mailto:efeturkerr0@gmail.com' className='cursor-pointer p-2 border transition rounded-md hover:bg-black hover:text-white hover:dark:bg-white hover:dark:text-black border-black dark:border-white text-black dark:text-white flex gap-2 items-center'><MdOutlineMail className='text-lg' />Mail</a>
+                <a rel='noreferrer' target='_blank' href='https://wa.me/+905550114185' className='cursor-pointer p-2 border transition rounded-md hover:bg-black hover:text-white hover:dark:bg-white hover:dark:text-black border-black dark:border-white text-black dark:text-white flex gap-2 items-center'><FaWhatsapp className='text-lg' /> WhatsApp</a>
+                <a rel='noreferrer' target='_blank' href='mailto:efeturkerr0@gmail.com' className='cursor-pointer p-2 border transition rounded-md hover:bg-black hover:text-white hover:dark:bg-white hover:dark:text-black border-black dark:border-white text-black dark:text-white flex gap-2 items-center'><MdOutlineMail className='text-lg' />Mail</a>
             </div>
         </section>
         <section className='flex flex-col gap-5 items-center justify-center'>
